@@ -1,0 +1,9 @@
+#!/bin/bash
+
+bolding(){
+	#echo -e '\033[1m'$1'\033[0m'
+	tput bold
+	echo $1
+}
+
+bolding $1
