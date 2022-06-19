@@ -1,0 +1,6 @@
+#!/bin/bash
+
+size(){
+	echo $(du -hs -BM $1 2>/dev/null)
+}
+size $1
